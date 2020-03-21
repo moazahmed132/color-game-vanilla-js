@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#hardBtn {
+  background-color: #408E61;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+header {
+  min-height: 130px;
+  background-color: #40676E;
+  color: #E3EECD;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1,
+header h2 {
+  font-size: 2em;
+  margin: 0;
+  padding: 10px;
+}
+
+header h2 {
+  padding: 5px;
+}
+
+nav {
+  background-color: #408E61;
+  text-align: center;
+}
+
+nav button,
+p {
+  background-color: #408E61;
+  border: none;
+  color: #E3EECD;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: bolder;
+  display: inline-block;
+  line-height: 50px;
+  padding: 0 10px;
+}
+
+button:hover {
+  background-color: #71A596;
+}
+
+button:focus,
+button::selection {
+  border: none;
+  outline: none;
+}
+
+#msg {
+  font-size: large;
+  float: left;
+  position: relative;
+  top: 16px;
+  right: 120px;
+}
+
+#new {
+  float: left;
+}
+
+nav .container div {
+  float: right;
+}
+
+.selected {
+  background-color: #E3EECD;
+  color: #408E61;
+}
+
+nav p {
+  margin: auto;
+  display: none;
+}
+
+
+.clearfix {
+  clear: both;
+}
+
+section {
+  background-color: #71A596;
+  min-height: 560px;
+  padding-top: 10px;
+}
+
+.easyMode {
+  visibility: hidden;
+
+}
+
+.hardMode {
+  visibility: hidden;
+
+}
+
+.box {
+  width: 220px;
+  height: 220px;
+  border: #E3EECD solid 1px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.center {
+  margin: auto;
+  text-align: center
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 600px;
+  }
+
+  .box {
+    width: 170px;
+    height: 170px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+
+  header h1,
+  header h2 {
+    font-size: 1.5em;
+  }
+
+  header {
+    min-height: 150px;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  button,
+  #new,
+  nav .container div {
+    display: block;
+    float: none !important;
+    text-align: center;
+    margin: auto;
+  }
+
+  .box {
+    width: 25%;
+    min-height: auto;
+  }
+}
