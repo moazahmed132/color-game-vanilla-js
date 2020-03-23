@@ -56,28 +56,18 @@ button::selection {
   outline: none;
 }
 
-/* .easyMode {
-  background-color: gray;
-}
+.nav-container {
+  margin: 0 10px 0 10px;
+  display: flex;
+  justify-content: space-around;
 
-.hardMode {
-  background-color: gray;
-} */
+}
 
 #msg {
-  font-size: large;
-  float: left;
-  position: relative;
-  top: 16px;
-  right: 120px;
-}
-
-#new {
-  float: left;
-}
-
-nav .container div {
-  float: right;
+  margin: auto;
+  font-size: x-large;
+  font-weight: bold;
+  color: #E3EECD;
 }
 
 .selected {

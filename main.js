@@ -52,10 +52,10 @@ generateBoxes = (numberOfBoxes) => {
           r.style.backgroundColor = moazColor;
           r.style.visibility = 'visible';
         });
-        msg.innerHTML = 'will done';
+        msg.innerHTML = 'Will done';
       } else {
         box.style.visibility = 'hidden';
-        msg.innerHTML = 'try again';
+        msg.innerHTML = 'Try again';
       }
     })
   });
