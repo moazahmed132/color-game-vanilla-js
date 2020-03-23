@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-#hardBtn {
-  background-color: #408E61;
-}
-
 .container {
   width: 800px;
   margin: auto;
@@ -51,7 +47,7 @@ p {
 }
 
 button:hover {
-  background-color: #71A596;
+  background-color: #40676E;
 }
 
 button:focus,
@@ -59,6 +55,14 @@ button::selection {
   border: none;
   outline: none;
 }
+
+/* .easyMode {
+  background-color: gray;
+}
+
+.hardMode {
+  background-color: gray;
+} */
 
 #msg {
   font-size: large;
@@ -97,7 +101,7 @@ section {
   padding-top: 10px;
 }
 
-.easyMode {
+/* .easyMode {
   visibility: hidden;
 
 }
@@ -105,7 +109,7 @@ section {
 .hardMode {
   visibility: hidden;
 
-}
+} */
 
 .box {
   width: 220px;
